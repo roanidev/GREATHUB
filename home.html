@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE ARITHEMETICS</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        #container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            /* background-color: blue; */
+        }
+
+        #content{
+            width: 90%;
+            height: 400px;
+            display: flex;
+            margin-top: 10%;
+            border-radius:20px ;
+            flex-direction: column;
+            background-color: whitesmoke;
+
+        }
+
+        #input-col{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 20px;
+            justify-content: space-evenly;
+            /* background-color: turquoise; */
+            
+        }
+
+        #content input{
+            width: 180px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid grey;
+        }
+
+        #content button{
+            width: 120px;
+            height: 50px;
+            border: 0;
+            margin-left: 120px;
+            border-radius: 10px;
+            color: white;
+            font-weight: 200;
+            font-size: 15px;
+            background-color: red;
+        }
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="content">
+
+            <div id="input-col">
+
+        <input id="fdigit" type="number" placeholder="DIGIT 1"/>
+          <input id="sdigit" type="number" placeholder="DIGIT 2"/><br><br>
+             </div>
+
+            <button type="button" id="submit">SUBMIT</button>
+
+   <h5 id="result"></h5>
+</div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+    <script>
+        // DEFINE ALL VARIABLES
+        let fnum = document.getElementById('fdigit');
+        let snum = document.getElementById('sdigit');
+        let button = document.getElementById('submit');
+        let result = document.getElementById('result');
+
+
+
+        // CREATE A FUNCTION TO EVALUATE NUMBERS, DECLARE VARIABLES AND CONVERT THE NUMBERS FROM STRING STRINGS TO INTEGER.
+        // you can eval or parseInt
+
+        function sumnumbers(){
+            let getfdigit= fnum.value;
+            let  convertedfdigit = parseInt(getfdigit);
+
+            let getsdigit= snum.value;
+            let  convertedsdigit = parseInt(getsdigit);
+
+        //    result.innerHTML=convertedfdigit+convertedsdigit;
+
+        //    result.innerHTML=convertedfdigit-convertedsdigit;
+
+        //    result.innerHTML=convertedfdigit*convertedsdigit;
+
+           result.innerHTML=convertedfdigit/convertedsdigit;
+
+
+
+        };
+        submit.onclick = sumnumbers;
+
+    </script>
+</body>
+</html>
