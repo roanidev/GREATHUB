@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+}
+/* ------------------------- CALCULATOR LOGO-------------------------------------- */
+#logo{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+     margin-top: 20px;
+    font-size: 30px;
+}
+/* ------------------------- CALCULATOR LOGO ------------------------------------- */
+
+
+/* ------------------------ CALCULATOR SCREEN ------------------------------------ */
+#calscreen{
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    overflow-x: scroll;
+    margin-top: 20px;
+    background-color: white;
+}
+/* ---------------------------CALCULATOR SCREEN ---------------------------------- */
+
+/* ---------------------------- CALCULATOR BODY ---------------------------------- */
+#calbody{
+    width: 95%;
+    height: 65%;
+    /* background-color: thistle; */
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+/* ---------------------------- CALCULATOR BODY ---------------------------------- */
+.btn{
+    width: 20%;
+    height: 10%;
+    margin: 5px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(71, 207, 71);
+}
+/* ----------------------------- CALCULATOR BUTTONS ------------------------------ */
+
