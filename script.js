@@ -38,23 +38,3 @@ button[eachbutton].addEventListener('click', function(){
 })
 
 }
-// // SHOW INNERHTML OF THE BUTTON
-
-// if(this.innerHTML=="="){
-//     // CALCULATE WHAT WAS INSIDE THE SCREEN AND PUT NEW VALUE IN THE SCREEN
-//     calculatorscreen.innerHTML=eval(calculatorscreen.innerHTML);
-// }else if(this.innerHTML=="CLEAR"){
-//     // EMPTY THE CALCULATOR SCREEN ONCE THIS IS PRESSED
-//     calculatorscreen.innerHTML="";
-// }else{
-
-// // PUT CLIKED VALUE INTO CALCULATOR SCREEN
-// // GET WHAT WAS INSIDE THE SCREEN BEFORE
-
-// var olditem = calculatorscreen.innerHTML;
-
-// // THIS HERE STANDS FOR THIS PARTICULAR BUTTON
-// var newitem = this.innerHTML;
-
-// // ?PUT THE OLDITEM PLUS THE NEW ITEM INSIDE THE SCREEN 
-// calculatorscreen.innerHTML= olditem+newitem;
