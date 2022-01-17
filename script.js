@@ -4,9 +4,9 @@ screen.innerHTML="";
 
 // CREATE CLICK LISTENER FOR EACH BUTTON
 var button = document.getElementsByClassName('btn');
-console.log(button);
+// console.log(button); 
 
-// ATTACH CLICKING AND SHOWING CLICKED ITEMS 
+//  ATTACH CLICKING AND SHOWING CLICKED ITEMS 
 for(eachbutton=0; eachbutton<button.length; eachbutton++){
 
     // add click function on each button 
@@ -37,4 +37,4 @@ button[eachbutton].addEventListener('click', function(){
 
 })
 
-}
+} 

@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical</title>
+</head>
+<body>
+    <input id="first" type="number" placeholder="FIRST DIGIT"/>
+    <input id="second" type="number" placeholder="SECOND DIGIT"/>
+    <button type="button" id="submit">SUBMIT</button>
+    <h5 id="answer"></h5>
+
+
+
+    <script>
+// define all variable 
+let fnum = document.getElementById('first');
+let snum = document.getElementById('second');
+let btn = document.getElementById('submit');
+let result = document.getElementById('answer');
+
+
+// crreat a function to convert and eavalute numbers 
+function addnumbers(){
+    let fdigit = fnum.value;
+    let convertfnum = eval(fdigit);
+
+    let sdigit =snum.value;
+    let convertsnum = eval(sdigit);
+
+    // result.innerHTML = convertfnum+convertsnum;
+    result.innerHTML = convertfnum%convertsnum;
+}
+submit.onclick = addnumbers;
+    </script>
+</body>
+</html>
